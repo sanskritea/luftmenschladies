@@ -1,83 +1,56 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <!-- link rel="icon" href="favicon.ico" type="image/x-icon" -->
+ <!-- link rel="icon" href="favicon.ico" type="image/x-icon" -->
   <!-- link rel="shortcut icon" href="favicon.ico" type="image/x-icon" -->
-  <title>Luftmenschladies</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Luftmenschladies</title>
 <style>
-  
-  body {
-  <!-- background-image: url('blackboard.jpeg'); -->
-  background-repeat: no-repeat;
-  background-color: #ead1dc;
-  background-attachment: fixed;
-  background-size: cover;
+body { 
+  margin: 0;
   font-family: "Gabriola";
-  font-color: blue;
+  font-color: black;
+  background-color: #ead1dc;
 }
 
-    #header {
+#header {
   background-color: #f1f1f1;
   padding: 50px 10px;
   color: black;
   text-align: center;
   font-size: 90px; 
-  font-family: "Ink Free";
   font-weight: bold;
   position: fixed;
   top: 0;
   width: 100%;
   transition: 0.2s;
+  font-family: "Ink Free";
 }
-    
 </style>
-  
 </head>
+<body>
 
-<body>  
- 
-    
-   <div id="header"></div>luftmenschladies
-    
-    <div style="margin-top:200px;padding:15px 15px 2500px;font-size:30px">
+<div id="header">luftmenschladies</div>
+
+<div style="margin-top:200px;padding:15px 15px 2500px;font-size:30px">
   <p><b>This example demonstrates how to shrink a header when the user starts to scroll the page.</b></p>
   <p>Scroll down this frame to see the effect!</p>
   <p>Scroll to the top to remove the effect.</p>
   <p>Lorem ipsum dolor dummy text sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-<p>Scroll down this frame to see the effect!</p>
-  <p>Scroll to the top to remove the effect.</p>
-  <p>Lorem ipsum dolor dummy text sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis no
-      <p>Scroll down this frame to see the effect!</p>
-  <p>Scroll to the top to remove the effect.</p>
-  <p>Lorem ipsum dolor dummy text sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis no
-      <p>Scroll down this frame to see the effect!</p>
-  <p>Scroll to the top to remove the effect.</p>
-  <p>Lorem ipsum dolor dummy text sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis no
-      <p>Scroll down this frame to see the effect!</p>
-  <p>Scroll to the top to remove the effect.</p>
-  <p>Lorem ipsum dolor dummy text sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis no
-      <p>Scroll down this frame to see the effect!</p>
-  <p>Scroll to the top to remove the effect.</p>
-  <p>Lorem ipsum dolor dummy text sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis no
-      <p>Scroll down this frame to see the effect!</p>
-  <p>Scroll to the top to remove the effect.</p>
-  <p>Lorem ipsum dolor dummy text sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis no
-    </div>
-  
- <script>
-// When the user scrolls down 30px from the top of the document, resize the header's font size
+</div>
+
+<script>
+// When the user scrolls down 50px from the top of the document, resize the header's font size
 window.onscroll = function() {scrollFunction()};
+
 function scrollFunction() {
-  if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
+  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
     document.getElementById("header").style.fontSize = "30px";
   } else {
     document.getElementById("header").style.fontSize = "90px";
   }
 }
 </script>
-  
+
 </body>
-  
 </html>
