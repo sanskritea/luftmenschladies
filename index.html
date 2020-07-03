@@ -49,11 +49,14 @@ div.content {
     width: 80%;
     left: 0;
     position:relative;
-    font-family: "Gabriola";
-	font-size: 20px;
     padding-top: 120px;
-    padding-left: 20px;
-    padding-right: 20px;
+    z-index:1;
+    }
+
+div.text {
+	font-family: "Gabriola";
+    font-size: 20px;
+    padding: 5px;
     }
 
 div.sidepanel {
@@ -93,11 +96,13 @@ div.sidehead{
 
 
 <div class="content">
+<div class="text">
   <p><b>This example demonstrates how to shrink a header when the user starts to scroll the page.</b></p>
   <p>Scroll down this frame to see the effect!</p>
   <p>Scroll to the top to remove the effect.</p>
   <p>Lorem ipsum dolor dummy text sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
   <p>Lorem ipsum dolor dummy text sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</div>
 </div>
 </div>
 
