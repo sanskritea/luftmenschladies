@@ -56,20 +56,34 @@ div.content {
     position:relative;
     padding-top: 120px;
     z-index:1;
+    float: left;
     }
 
 div.text {
     margin-top:1%;
     margin-left:4%;
     margin-right:4%;
-    padding:1.5% 3% 1.5% 3%;
-	font-family: "Gabriola";
-    font-size: 25px;
+    padding:3% 3% 1.5% 3%;
+    font-family: "Gabriola";
+    font-size: 20px;
     border-style: dotted;
     border-color: #f1f1f1;
     border-width: 1px;
-	
+    line-height: 25px;	
     }
+
+div.centbox{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.img{
+    
+    display:inline;
+    margin-left:auto;
+    margin-right:auto;
+}
+	
 
 div.sidepanel {
   background-color: #09234d;
@@ -133,7 +147,7 @@ a:active {
 <div class="matter">
 <div class="sidepanel"> 
 	<div class="sidehead">
-		<a href="href="https://sanskritea.github.io/luftmenschladies/index.html">Frontpage</a><br>
+		<a href="https://sanskritea.github.io/luftmenschladies/index.html">Frontpage</a><br>
 		Artworks<br>
 		Poetry<br>
 		Prose<br>
@@ -144,9 +158,11 @@ a:active {
 <!-- Post -->
 <div class="content">
 	<div class="text">
-		<img scr="about.jpeg" style="width:80%;">
-  		<p>We are <b>Jaanvi</b> and <b>Sanskriti</b>, college mates, Presidents and consumers of most everything that comes our way. 
-      </p>
+		<div class="centbox">
+		<img src="https://sanskritea.github.io/luftmenschladies/about/about.jpeg" style="width:300px">
+		</div>
+  		We are <b>Jaanvi</b> and <b>Sanskriti</b>, college mates, Presidents and consumers of most everything that comes our way. 
+      
 	</div>
 </div>
 	
