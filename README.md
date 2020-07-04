@@ -1,3 +1,3 @@
 # luftmenschladies
 
-webiste for IG page
+website for IG page
