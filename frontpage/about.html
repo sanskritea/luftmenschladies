@@ -1,0 +1,146 @@
+ 
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+	<title>luftmenschladies</title>
+  
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+html {
+    height: 100vh;
+}
+
+body { 
+  margin: 0;
+  background-color: #eddbe1;
+  font-family: "Gabriola";
+  height: 100vh;
+  color: black;
+}
+
+#header {
+  background-color: #f1f1f1;
+  color: black;
+  text-align: center;
+  font-size: 60px; 
+  font-weight: bold;
+  position: fixed;
+  top: 0;
+  z-index:2;
+  width: 100%;
+  height: 12%;
+  transition: 0.2s;
+  font-family: "Ink Free";
+  padding-top:10px;
+  padding-bottom:10px;
+}
+
+div.matter {
+	margin: auto;
+	height: 100vh;
+    width: 75%;
+    left: 0;
+    position: relative;
+    background-color: white;
+    }
+    
+div.content {
+    background-color: #d3a4bb;
+    height: 100vh;
+    width: 80%;
+    left: 0;
+    position:relative;
+    padding-top: 120px;
+    z-index:1;
+    }
+
+div.text {
+    margin-top:1%;
+    margin-left:4%;
+    margin-right:4%;
+    padding:1.5% 3% 1.5% 3%;
+	font-family: "Gabriola";
+    font-size: 25px;
+    border-style: dotted;
+    border-color: #f1f1f1;
+    border-width: 1px;
+	
+    }
+
+div.sidepanel {
+  background-color: #09234d;
+  height: 100vh;
+  width:20%;
+  left:80%;
+  position:absolute;
+  padding-top: 120px;
+  z-index: 0;
+  font-family: "Gabriola";
+  overflow-x: hidden;
+  border-left-style: dotted;
+  border-left-width:1px ;
+  border-left-color: #eddbe1 ;
+}
+    
+div.sidehead{ 
+  color: #f1f1f1;
+  
+  font-size:25px;
+  padding:20px;
+  float:left;
+  width:auto;
+  font-family: "Gabriola";
+  
+  display:block;
+}
+
+
+</style>
+</head>
+<body>
+	
+<div id="header">luftmenschladies</div>
+	
+<!-- Sidebar -->
+<div class="matter">
+<div class="sidepanel"> 
+	<div class="sidehead">
+		About us<br>
+		Artworks<br>
+		Poetry<br>
+		Prose<br>
+		Louves<br>
+	</div>
+</div>
+
+<!-- Post -->
+<div class="content">
+	<div class="text">
+  		<p>We are <b>Jaanvi</b> and <b>Sanskriti</b>, college mates, Presidents and consumers of most everything that comes our way. 
+      </p>
+	</div>
+</div>
+	
+</div>
+
+<script>
+// When the user scrolls down 50px from the top of the document, resize the header's font size
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
+    document.getElementById("header").style.fontSize = "30px";
+    document.getElementById("header").style.height = "6%";
+  } else {
+    document.getElementById("header").style.fontSize = "60px";
+    document.getElementById("header").style.height = "12%";
+  }
+}
+</script>
+
+</body>
+</html>
