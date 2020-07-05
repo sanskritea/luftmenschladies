@@ -89,3 +89,7 @@ a:active {
   background-color: transparent;
   text-decoration: underline;
 }
+
+.centbox {
+	text-align: center;
+}
