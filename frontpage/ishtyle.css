@@ -4,10 +4,7 @@ html {
 
 body { 
   margin: 0;
-  background-color: #eddbe1;
-  font-family: "Gabriola";
-  height: 100vh;
-  color: black;
+  background-color: #eddbe1
 }
 
 #header {
@@ -21,7 +18,7 @@ body {
   z-index:2;
   width: 100%;
   transition: 0.2s;
-  font-family: "Ink Free";
+  font-family: "Florence";
   padding-top:10px;
   padding-bottom:10px;
 }
@@ -41,6 +38,7 @@ body {
 	border-style: dotted;
 	border-color: #8f8389;
 	border-width: 1px;
+	font-family: 
 }
 
 .posttext {
