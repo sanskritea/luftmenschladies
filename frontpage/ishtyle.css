@@ -19,7 +19,7 @@ body {
   z-index:2;
   width: 100%;
   transition: 0.2s;
-  font-family: "Ink Free", "Bradley Hand", "Luminari", "Didot", "American Typewriter";
+  font-family: "Bradley Hand", "Ink Free", "Luminari", "Didot", "American Typewriter";
   padding-top:10px;
   padding-bottom:10px;
 }
