@@ -30,7 +30,7 @@ body {
 	margin: 95px auto auto auto;
  	display: table;
 	width: 75%;
-	
+	height:100vh;
 }
 
 .postbox {
