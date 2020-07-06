@@ -82,13 +82,13 @@ a:link {
 }
 
 a:visited {
-  color: #d3a4bb;
+  color: #8f8389;
   background-color: transparent;
   text-decoration: none;
 }
 
 a:hover {
-  color: #8f8389;
+  color: #d3a4bb;
   background-color: transparent;
   text-decoration: underline;
 }
