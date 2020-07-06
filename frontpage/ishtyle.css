@@ -4,28 +4,28 @@ html {
 
 body { 
   margin: 0;
-  background-color: #d3a4bb;
+  background-color: #e6d1da;
 	 font-family: "Bradley Hand ITC";
 }
 
 #header {
-  background-color: #f1f1f1;
-  color: black;
+  background-color: #e6d1da;
+  color: #f1f1f1;
   text-align: center;
-  font-size: 60px; 
+  font-size: 80px; 
   font-weight: bold;
   position: fixed;
   top: 0;
   z-index:2;
   width: 100%;
   transition: 0.2s;
-  font-family: "Perpetua";
-  padding-top:10px;
-  padding-bottom:10px;
+  font-family:"Garamond";
+  padding-top:20px;
+  padding-bottom:20px;
 }
 
 .container {
-	margin: 90px auto auto auto;
+	margin: 20px auto auto auto;
  	display: table;
 	width: 75%;
 	height:100vh;
@@ -34,34 +34,41 @@ body {
 
 .postbox {
  	display: table-cell;
-	width: 80%; 
-	color:black; 
-	background-color: #eddbe1; 
-	border-style: dotted;
-	border-color: #f1f1f1;
-	border-width: 1px;
+	width: 80%;  
+	background-color: #f1f1f1; 
+}
+
+.postheading {
+	margin: 2%;
+	font-size:27px;
+	padding: 5%;
+	color:#09234d;
+	font-weight: bold;
+	font-family: "Times New Roman";
+	background-color: #e6d1da;
+	line-height: 28px;
 }
 
 .posttext {
-	margin: 3%;
+	margin: 8px;
 	font-size:20px;
 	padding: 2%;
-	border-style: dotted;
-	border-color: #09234d;
-	border-width: 1px;
+	color:#09234d;
+	background-color: #e6d1da;
 	line-height: 28px;
 }
 
 .menu{
 	display: table-cell;
-	color: #f1f1f1; 
-	background-color: #09234d; 
+	color: #09234d; 
+	background-color: #e6d1da; 
 	width: 20%;
 }
 
 .menutext {
 	font-size:18px;
 	padding: 5%;
+	background-color: #e6d1da;
 	overflow-x: hidden;
 	line-height: 26px;
 	text-align: center;
@@ -93,4 +100,22 @@ a:active {
 
 .centbox {
 	text-align: center;
+}
+
+#line {
+    float: left;
+    width: 731px;
+    height: 10px;
+}
+
+hr {
+  color: #09234d;
+  clear:both;
+  display:block;
+margin:130px auto auto auto;
+background-color:#e6d1da;
+width:96%;
+border:1px solid #09234d;
+border-radius: 0.5px;
+
 }
