@@ -4,8 +4,8 @@ html {
 
 body { 
   margin: 0;
-  background-color: #eddbe1
-	 font-family: "American Typewriter","Didot","Times New Roman";
+  background-color: #d3a4bb;
+	 font-family: "Bradley Hand ITC";
 }
 
 #header {
@@ -19,25 +19,26 @@ body {
   z-index:2;
   width: 100%;
   transition: 0.2s;
-  font-family: "Bradley Hand", "Ink Free", "Luminari", "Didot", "American Typewriter";
+  font-family: "Perpetua";
   padding-top:10px;
   padding-bottom:10px;
 }
 
 .container {
-	margin: 95px auto auto auto;
+	margin: 90px auto auto auto;
  	display: table;
 	width: 75%;
 	height:100vh;
+	font-family: "Garamond";
 }
 
 .postbox {
  	display: table-cell;
 	width: 80%; 
 	color:black; 
-	background-color: #d3a4bb; 
+	background-color: #eddbe1; 
 	border-style: dotted;
-	border-color: #8f8389;
+	border-color: #f1f1f1;
 	border-width: 1px;
 }
 
@@ -46,7 +47,7 @@ body {
 	font-size:20px;
 	padding: 2%;
 	border-style: dotted;
-	border-color: #f1f1f1;
+	border-color: #09234d;
 	border-width: 1px;
 	line-height: 28px;
 }
@@ -62,7 +63,7 @@ body {
 	font-size:18px;
 	padding: 5%;
 	overflow-x: hidden;
-	line-height: 24px;
+	line-height: 26px;
 	text-align: center;
 }
 
