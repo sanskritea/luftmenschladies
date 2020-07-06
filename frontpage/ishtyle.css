@@ -119,5 +119,12 @@ background-color:#e6d1da;
 width:96%;
 border:1px solid #09234d;
 border-radius: 0.5px;
+}
 
+.caption {
+	text-align: center;
+	font-famliy: "Garamond";
+	color: #09234d;
+	font-size: 18px;
+	padding: 2px;
 }
