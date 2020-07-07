@@ -104,6 +104,14 @@ a:active {
 	text-align: center;
 }
 
+.leftbox {
+	text-align: center;
+}
+
+.rightbox {
+	text-align: center;
+}
+
 #line {
     float: left;
     width: 731px;
