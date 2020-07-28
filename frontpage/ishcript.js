@@ -21,4 +21,8 @@ document.getElementById("navMenu").innerHTML =
   '<li><a href="https://sanskritea.github.io/luftmenschladies/posts/5/5.html">V</a><br></li>'+
   '<li><a href="https://sanskritea.github.io/luftmenschladies/posts/6/6.html">VI</a><br></li>'+
   '<li><a href="https://sanskritea.github.io/luftmenschladies/posts/7/7.html">VII</a><br></li>'+
+   '<li><a href="https://sanskritea.github.io/luftmenschladies/posts/8/8.html">VIII</a><br></li>'+
+   '<li><a href="https://sanskritea.github.io/luftmenschladies/posts/9/9.html">IX</a><br></li>'+
+   '<li><a href="https://sanskritea.github.io/luftmenschladies/posts/10/10.html">X</a><br></li>'+
+   '<li><a href="https://sanskritea.github.io/luftmenschladies/posts/11/11.html">XI</a><br></li>'+
   '</ul>';
